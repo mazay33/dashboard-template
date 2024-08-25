@@ -1,0 +1,42 @@
+{
+	"name": "nuxt-app",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
+	},
+	"dependencies": {
+		"@formkit/auto-animate": "^0.8.2",
+		"@nuxt/icon": "^1.4.7",
+		"@nuxt/ui": "^2.18.4",
+		"@nuxtjs/color-mode": "^3.4.4",
+		"@nuxtjs/tailwindcss": "^6.12.1",
+		"@pinia/nuxt": "^0.5.3",
+		"@vueuse/core": "^11.0.1",
+		"@vueuse/nuxt": "^11.0.1",
+		"nuxt": "^3.12.4",
+		"pinia": "^2.2.2",
+		"v-calendar": "^3.1.2",
+		"vue": "latest"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "^2.26.0",
+		"@iconify-json/ion": "^1.1.19",
+		"@nuxtjs/eslint-module": "^4.1.0",
+		"@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+		"@unovis/vue": "1.4.3-beta.0",
+		"date-fns": "^3.6.0",
+		"eslint": "^9.9.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"prettier": "^3.3.3",
+		"prettier-plugin-tailwindcss": "^0.6.6",
+		"tailwind-merge": "^2.5.2"
+	}
+}
